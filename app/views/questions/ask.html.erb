@@ -1,8 +1,6 @@
-<h1>Stupid Coaching</h1>
 
-<form action="/answer" data-turbo="false">
-  <input type="text" name="question" value="<%= params[:question] %>">
-  <input type="submit" value="Ask!">
+
+<form class = "d-inline-flex" action="/answer" data-turbo="false">
+  <input class="form-control" type="text" name="question" value="<%= params[:question] %>">
+  <input class="btn btn-primary" type="submit" value="Ask!">
 </form>
-
-
